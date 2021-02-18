@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="logo">
+        <img src="/1024px-Unofficial_JavaScript_logo_2.svg.png" alt="">
+    </div>
+
+    <div class="intro">
+        <div class="container">
+            <h2>Javascript <span>Quiz</span></h2>
+        </div>
+    </div>
+
+
+    <div class="scoreboard">
+        <div class="container">
+            <p>Your final grade is <span id="score">0%</span></p>
+        </div>
+    </div>
+
+   <div class="border"></div>
+
+    <form class="quiz">
+
+        <div class="questions container2">
+
+            <p class="question">Which built-in method combines the text of two strings and returns a new string?</p>
+    
+            <div class="ans">
+                <input type="radio" name="q1" value="A">
+                <label for="" class="form-check-label">append ()</label>
+            </div>
+
+            <div class="ans">
+                <input type="radio" name="q1" value="B">
+                <label for="" class="form-check-label">concat ()</label>
+            </div>
+            <!-- answer:b -->
+        </div>
+
+        <div class="questions container2">
+
+            <p class="question">Which of the following function of String object returns the index within the calling String object of the first occurrence of the specified value ?</p>
+    
+            <div class="ans">
+                <input type="radio" name="q2" value="A">
+                <label for="" class="form-check-label"> indexOf ()</label>
+            </div>
+
+            <div class="ans">
+                <input type="radio" name="q2" value="B">
+                <label for="" class="form-check-label">lastIndexOf ()</label>
+            </div>
+            <!-- answer:a -->
+        </div>
+
+        <div class="questions container2">
+
+            <p class="question">Which of the following function of Array object joins all elements of an array into a string?</p>
+    
+            <div class="ans">
+                <input type="radio" name="q3" value="A">
+                <label for="" class="form-check-label"> join ()</label>
+            </div>
+
+            <div class="ans">
+                <input type="radio" name="q3" value="B">
+                <label for="" class="form-check-label">pop ()</label>
+            </div>
+            <!-- answer:a -->
+        </div>
+    
+        <div class="questions container2">
+
+            <p class="question">Which of the following function of Array object reverses the order of the elements of an array ?</p>
+    
+            <div class="ans">
+                <input type="radio" name="q4" value="A">
+                <label for="" class="form-check-label">reverse ()</label>
+            </div>
+
+            <div class="ans">
+                <input type="radio" name="q4" value="B">
+                <label for="" class="form-check-label">push ()</label>
+            </div>
+            <!-- answer:a -->
+        </div>
+    
+        <div class="questions container2">
+
+            <p class="question">Which of the following function of String object returns the calling string value converted to lower case while respecting the current locale ? </p>
+    
+            <div class="ans">
+                <input type="radio" name="q5" value="A">
+                <label for="" class="form-check-label">toLocaleLowerCase () </label>
+            </div>
+
+            <div class="ans">
+                <input type="radio" name="q5" value="B">
+                <label for="" class="form-check-label">toLowerCase () </label>
+            </div>
+            <!-- answer:a -->
+        </div>
+
+        <div>
+            <input type="submit" value="Submit" class = 'btn'>
+        </div>
+        
+    </form>
+
+        <script src="script.js"></script>
+
+</body>
+</html>

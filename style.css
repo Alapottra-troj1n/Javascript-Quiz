@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: rgb(20, 20, 20);
+    color: white;
+}
+
+.container{
+    width: 100%;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+
+.container h2{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(255, 240, 25);
+}
+
+.intro .container span{
+    font-weight: 100;
+}
+
+.logo img{
+    display: block;
+    max-width: 12.5rem;
+    width: 100vw;
+    margin: auto;
+}
+
+/* SCOREBOARD */
+
+.scoreboard{
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 4rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 3.125rem;
+    letter-spacing: 2px;
+    display: none;
+   
+}
+.scoreboard, .container p span, .container p{
+    background: rgb(39, 39, 39);
+    
+    
+}
+
+#score{
+    font-size: 3rem;
+    color: rgb(255, 240, 25);
+    position: relative;
+    top: 7px;
+    padding-left: 0.625rem;
+    
+}
+
+
+.quiz .questions{
+    display: flex;
+    flex-direction: column;
+
+}
+.quiz{
+    margin: 0.625rem auto;
+    font-size: 1.3rem;  
+}
+
+.container2{
+    line-height: 2rem;
+    margin: 3rem 6rem;
+    width: 100%;
+    max-width: 1020px;
+    
+}
+.question{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(231, 217, 14);
+    
+  
+}
+.ans label{
+    font-size: 1rem;
+}
+
+.btn{
+    padding: 15px 35px;
+    display: block;
+    margin: auto;
+    outline: none;
+    border:2px solid rgb(231, 217, 14);
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: sans-serif;
+    transition: all 300ms ease-in-out;
+    font-weight: 300;
+}
+.btn:hover{
+    background-color: rgb(231, 217, 14);
+    color: rgb(22, 22, 22);
+}
+
+.border{
+    margin-top: 3rem;
+    border-bottom: 2px solid rgb(231, 217, 14);;
+}
+
+
+@media (max-width: 700px){
+
+    .logo img{
+        max-width: 150px;
+    }
+    .intro h2{
+        font-size: 2rem;
+    }
+
+    .scoreboard{
+        max-width: 600px;
+       width: 100%;
+    }
+
+    .scoreboard p{
+        font-size: 1rem;
+    }
+    #score{
+        font-size: 3rem;
+    }
+
+.container2{
+    max-width: 600px;
+    width: 50vw;
+}
+
+.question{
+    font-size: 1.2rem;
+}
+.ans label{
+    font-size: 0.9rem;
+}
+    
+}
